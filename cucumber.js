@@ -6,6 +6,10 @@ module.exports = {
       'support/**/*.ts'
     ],
     paths: ['features/**/*.feature'],
-    format: ['progress']
+    
+    format: [
+  'progress',
+  'html:reports/cucumber-report.html'
+]
   }
 };
